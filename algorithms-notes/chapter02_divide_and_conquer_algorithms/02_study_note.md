@@ -16,6 +16,7 @@
 ---
 
 ## 2.1 Multiplication
+<img width="1288" height="1036" alt="image" src="https://github.com/user-attachments/assets/ce333fc2-fbca-46fb-9ab3-64318e1f9af9" />
 수학자 칼 프리드리히 가우스(1777-1855)는 두 복소수의 곱 $(a + bi)(c + di) = ac - bd + (bc + ad)i$ 이 4번의 실수 곱셈을 포함하는 것처럼 보이지만, 
 
 $$
@@ -115,6 +116,7 @@ return P1 × 2^n + (P3 − P1 − P2) × 2^{n/2} + P2
 ---
 
 ## 2.2 점화식
+<img width="1288" height="862" alt="image" src="https://github.com/user-attachments/assets/68ccb5ee-5697-4e10-8c15-1ca4787f1328" />
 분할정복 알고리즘은 종종 일반적인 패턴을 따른다. 크기 `n`인 문제를 `a > 0`, `b > 1`, `d ≥ 0` 인 상수들에 대해 크기 $\tfrac{n}{b}$인 `a`개의 부분문제로 재귀적으로 해결하고, 이 답들을 $O(n^{d})$ 시간에 합친다. (곱셈 알고리즘에서는 `a = 3`, `b = 2`, `d = 1`). 따라서 실행 시간은 $T(n) = aT([\tfrac{n}{b}]) + O(n^{d})$로 나타낼 수 있다.
 
 이제 이 일반적인 점화식의 해를 구해보면, `마스터 정리` $T(n) = aT([\tfrac{n}{b}]) + O(n^{d})$가 상수 `a > 0`, `b > 1`, `d ≥ 0`에 대해 성립하면:
@@ -145,6 +147,23 @@ $$
 
 ### 이진 탐색
 궁극적인 분할정복 알고리즘은 이진 탐색이다. 정렬된 배열에서 키를 찾기 위해 중간 원소와 비교하고, 결과에 따라 절반에서 재귀한다. 점화식은 $T(n) = T([\tfrac{n}{2}] + O(1)$ 이고, 이는 `a = 1`, `b = 2`, `d = 0`인 경우다. 마스터 정리를 적용하면 친숙한 $O(logn)$ 실행 시간을 얻는다.
+
+---
+
+## 2.3 Mergesort
+<img width="1288" height="678" alt="image" src="https://github.com/user-attachments/assets/5f85c951-7a8b-4368-956b-5b6b535ec8bd" />
+
+---
+
+## 2.4 Medians
+
+---
+
+## 2.5 Matrix multiplication
+
+---
+
+## 2.6 The fast Fourier transform
 
 
 
