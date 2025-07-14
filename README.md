@@ -27,16 +27,16 @@
 ## 디렉터리 구조
 ```
 algorithms-notes/
-├── chapter02_divide_and_conquer/
+├── chapter02_divide_and_conquer_algorithms/
 │   ├── 02_study_note.md
 │   └── 02_study_code.py
-├── chapter03_graph_decomposition/
+├── chapter03_decompositions_of_graphs/
 │   ├── 03_study_note.md
 │   └── 03_study_code.py
-├── chapter04_graph_paths/
+├── chapter04_paths_in_graphs/
 │   ├── 04_study_note.md
 │   └── 04_study_code.py
-├── chapter05_greedy/
+├── chapter05_greedy_algorithms/
 │   ├── 05_study_note.md
 │   └── 05_study_code.py
 ├── chapter06_dynamic_programming/
