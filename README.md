@@ -10,9 +10,9 @@
 ## 책 차례
 | Chapter | 제목 | 레포 상태 |
 |:---------:|:------:|:----:|
-| 0 | Prologue | ❌ |
-| 1 | Algorithms with Numbers | ❌ |
-| 2 | Divide-and-Conquer Algorithms | 🔄 진행 중 |
+| 0 | Prologue | ❌ | 
+| 1 | Algorithms with Numbers | ❌ | 
+| 2 | [Divide-and-Conquer Algorithms](https://github.com/SeonGyuJang/Algorithms/blob/main/algorithms-notes/chapter02_divide_and_conquer_algorithms/02_study_note.md) | 🔄 진행 중 |
 | 3 | Decompositions of Graphs | 🔄 진행 예정 |
 | 4 | Paths in Graphs | 🔄 진행 예정 | 
 | 5 | Greedy Algorithms | 🔄 진행 예정 |
@@ -29,18 +29,18 @@
 algorithms-notes/
 ├── chapter02_divide_and_conquer_algorithms/
 │   ├── 02_study_note.md
-│   └── 02_study_code.py
+│   └── 02_study_code.ipynb
 ├── chapter03_decompositions_of_graphs/
 │   ├── 03_study_note.md
-│   └── 03_study_code.py
+│   └── 03_study_code.ipynb
 ├── chapter04_paths_in_graphs/
 │   ├── 04_study_note.md
-│   └── 04_study_code.py
+│   └── 04_study_code.ipynb
 ├── chapter05_greedy_algorithms/
 │   ├── 05_study_note.md
-│   └── 05_study_code.py
+│   └── 05_study_code.ipynb
 ├── chapter06_dynamic_programming/
 │   ├── 06_study_note.md
-│   └── 06_study_code.py
+│   └── 06_study_code.ipynb
 └── README.md  ← *you are here*
 ```
