@@ -44,4 +44,3 @@ algorithms-notes/
 │   └── 06_study_code.py
 └── README.md  ← *you are here*
 ```
-1. 
